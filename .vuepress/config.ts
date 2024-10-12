@@ -25,7 +25,7 @@ export default defineUserConfig({
     logo: "/logo.png",
     author: "曦杨",
     authorAvatar: "/head.png",
-    docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
+    docsRepo: "https://github.com/XiYang66/reco-2.0-blog",
     docsBranch: "main",
     navbar: [
       {
@@ -53,19 +53,18 @@ export default defineUserConfig({
     selectLanguageText: '语言',
     lastUpdatedText: '最后更新时间',
     selectLanguageName: '简体中文',
-    // commentConfig: {
-    //   type: 'valine',
-    //   // options 与 1.x 的 valineConfig 配置一致
-    //   options: {
-    //     // appId: 'xxx',
-    //     // appKey: 'xxx',
-    //     // placeholder: '填写邮箱可以收到回复提醒哦！',
-    //     // verify: true, // 验证码服务
-    //     // notify: true,
-    //     // recordIP: true,
-    //     // hideComments: true // 隐藏评论
-    //   },
-    // },
+    commentConfig: {
+      type: 'valine',
+      // options 与 1.x 的 valineConfig 配置一致
+      options: {
+        appId: 'b4bc451ea7a956debeb3',//从LeanCloud的应用中得到的appId.
+        appKey: 'd505a42385ba8762b7186608e1200ad985932852',//从LeanCloud的应用中得到的appKey.
+        recordIP: true, //是否记录评论者IP
+        visitor: true, // 阅读量统计
+        enableQQ: true, // 是否启用昵称框自动获取QQ昵称和QQ头像
+        placeholder: '昵称填写QQ号可以显示QQ头像和昵称哦~ ',
+      },
+    },
   }),
   // debug: true,
 });
