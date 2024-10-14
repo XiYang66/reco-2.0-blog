@@ -12,6 +12,7 @@ export default defineUserConfig({
   ],
   bundler: viteBundler(),
   // bundler: webpackBundler(),
+  // 主题配置
   theme: recoTheme({
     // docsDir: '/series',
     // 自动设置分类
@@ -57,8 +58,8 @@ export default defineUserConfig({
       type: 'valine',
       // options 与 1.x 的 valineConfig 配置一致
       options: {
-        appId: 'b4bc451ea7a956debeb3',//从LeanCloud的应用中得到的appId.
-        appKey: 'd505a42385ba8762b7186608e1200ad985932852',//从LeanCloud的应用中得到的appKey.
+        appId: 'M3gzGIpnfpx7i5UYepo4HHtc-gzGzoHsz',//从LeanCloud的应用中得到的appId.
+        appKey: 'jo1HbkGYuYFepCvxokfFEaer',//从LeanCloud的应用中得到的appKey.
         recordIP: true, //是否记录评论者IP
         visitor: true, // 阅读量统计
         enableQQ: true, // 是否启用昵称框自动获取QQ昵称和QQ头像
@@ -66,5 +67,9 @@ export default defineUserConfig({
       },
     },
   }),
+  // 插件
+  plugins: [
+
+  ],
   // debug: true,
 });
