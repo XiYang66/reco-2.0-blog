@@ -8,7 +8,7 @@ export default defineUserConfig({
   description: "Just playing around",
   // 网页头部标签
   head: [
-    ["link", { rel: "icon", href: "/logo.png" }]
+    ["link", { rel: "icon", href: "/favicon.png" }]
   ],
   bundler: viteBundler(),
   // bundler: webpackBundler(),
@@ -25,7 +25,7 @@ export default defineUserConfig({
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
     author: "曦杨",
-    authorAvatar: "/head.png",
+    authorAvatar: "/logo.png",
     docsRepo: "https://github.com/XiYang66/reco-2.0-blog",
     docsBranch: "main",
     navbar: [
