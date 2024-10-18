@@ -15,8 +15,9 @@ export default defineUserConfig({
   // 主题配置
   theme: recoTheme({
     // docsDir: '/series',
-    // 自动设置分类
-    autoSetBlogCategories: true,
+    colorMode: 'dark',// 外观颜色 dark, light, 默认 auto
+    colorModeSwitch: false, // 是否展示颜色模式开关
+    autoSetBlogCategories: true,// 自动设置分类
     // 自动将分类和标签添加至头部导航条
     autoAddCategoryToNavbar: {
       location: 0, // 插入位置，默认 0
@@ -41,7 +42,7 @@ export default defineUserConfig({
       },
     ],
     categoriesText: '分类',
-    tagsText:'标签',
+    tagsText: '标签',
     tip: '提示',
     info: '信息',
     danger: '危险',
