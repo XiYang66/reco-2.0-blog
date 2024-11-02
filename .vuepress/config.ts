@@ -16,7 +16,7 @@ export default defineUserConfig({
   theme: recoTheme({
     // docsDir: '/series',
     colorMode: 'dark',// 外观颜色 dark, light, 默认 auto
-    colorModeSwitch: false, // 是否展示颜色模式开关
+    colorModeSwitch: true, // 是否展示颜色模式开关
     autoSetBlogCategories: true,// 自动设置分类
     // 自动将分类和标签添加至头部导航条
     autoAddCategoryToNavbar: {

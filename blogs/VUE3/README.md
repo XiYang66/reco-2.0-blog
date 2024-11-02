@@ -1,8 +1,6 @@
 ---
 title: VUE3
 date: 2022-9-27
-autoSort: 20
-number: 3
 tags:
  - VUE3
 categories: 

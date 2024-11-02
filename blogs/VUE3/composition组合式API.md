@@ -1,8 +1,6 @@
 ---
 title: composition组合式API
 date: 2022-9-27
-autoSort: 20
-number: 2
 tags:
  - VUE3
 categories: 
